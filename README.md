@@ -1,3 +1,7 @@
+[![Conference](https://img.shields.io/badge/CIKM-2026-blue.svg)](https://www.cikmconference.org/)
+[![Spark](https://img.shields.io/badge/Engine-PySpark%20%7C%20Azure%20Synapse-orange.svg)](https://azure.microsoft.com/en-us/products/synapse-analytics/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 # Chronic-Tire-Pressure-Loss-Detection-at-Fleet-Scale
 An automated system to detect chronic tire pressure data anomalies and slow leaks in large-scale vehicle fleets
 
