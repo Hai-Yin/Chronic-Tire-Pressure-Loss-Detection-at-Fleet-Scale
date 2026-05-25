@@ -2,7 +2,7 @@
 An automated system to detect chronic tire pressure data anomalies and slow leaks in large-scale vehicle fleets
 
 
-Replication Quick Start & Environment Setup
+## Replication Quick Start & Environment Setup
 
 To ensure seamless alignment with our PySpark execution environment, please configure your cluster infrastructure using the exact specifications below.
 
@@ -19,11 +19,11 @@ If running on a local cluster or standard Databricks, you **must** coordinate th
 ### 2. Local-Standard Code Adaption (Crucial for Reviewers)
 To execute the interactive pipeline without access to our enterprise Azure Data Lake Storage (ADLS) container, we have embedded a **Local Parquet Compatibility Layer** at the beginning of the notebook.
 
-In **Section 1 (Data Ingestion)** of the provided `CIKM_Tire_Pressure_Loss_Pipeline.ipynb`, simply toggle the storage paths from global cloud URIs to your local relative repository paths:
+In **Data Loading part** of the provided `CIKM_Tire_Pressure_Loss_Pipeline.ipynb`, simply toggle the storage paths from global cloud URIs to your local relative repository paths:
 
 ```python
 # --- CLOUD INFRASTRUCTURE ROADMAPPED IN PAPER ---
-# telematics_path_parquet = "abfss://prod-container@fleetstorage.dfs.core.windows.net/telematics/..."
+# telematics_path_parquet = "abfss://prod-container@fleetstorage.dfs.core.windows.net/tpms_development..."
 
 # --- LOCAL REPLICATION PATH (ENABLED FOR REPRODUCTION) ---
 fleet_modeling_path = "./data/1_fleet_modeling_demo.parquet"
