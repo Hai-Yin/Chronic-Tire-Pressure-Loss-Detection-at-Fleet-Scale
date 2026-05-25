@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark dataset in your research, please cite it as below."
+authors:
+  - family-names: "Yin"
+    given-names: "Hai"
+  - family-names: "Dorniak"
+    given-names: "Jens"
+  - family-names: "Beecks"
+    given-names: "Christian"
+title: "Chronic-Tire-Pressure-Loss-Detection-at-Fleet-Scale: An Automated System for Fleet-Scale Anomalous Telematics Analysis"
+version: "1.0.0"
+date-released: 2026-05-26
+url: "https://github.com/Hai-Yin/Chronic-Tire-Pressure-Loss-Detection-at-Fleet-Scale"
+type: generic
+notes: "Submitted to ACM International Conference on Information and Knowledge Management (CIKM 2026)."
