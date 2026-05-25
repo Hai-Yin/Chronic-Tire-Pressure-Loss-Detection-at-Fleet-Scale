@@ -2,7 +2,7 @@
 An automated system to detect chronic tire pressure data anomalies and slow leaks in large-scale vehicle fleets
 
 
-## 🚀 Replication Quick Start & Environment Setup
+Replication Quick Start & Environment Setup
 
 To ensure seamless alignment with our PySpark execution environment, please configure your cluster infrastructure using the exact specifications below.
 
