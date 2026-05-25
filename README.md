@@ -12,14 +12,14 @@ Official replication package and benchmark artifacts accompanying the peer-revie
 
 ---
 
-##  OVERVIEW
+## OVERVIEW
 
 This repository contains the reference implementation and localized benchmark datasets for our deployed automated system tracking insidious, long-term slow air leaks across massive commercial logistics fleets. 
 
-Deployed in production at **KRONE FLEET Deutschland GmbH**, the system currently monitors **~15,900 tires across 2,600+ active commercial vehicles**, achieving a production-verified performance of **88% precision and 90% recall** at the segment level. The underlying core computational framework operates via a three-stage intelligent pipeline:
+Deployed in production at **KRONE FLEET**, the system currently monitors **~15,900 tires across 2,600+ active commercial vehicles**, achieving a production-verified performance of **88% precision and 90% recall** at the segment level. The underlying computational framework is consolidated into a **single comprehensive notebook**, executing a unified three-stage intelligent pipeline:
 
-1. **PREPROCESSING & MORPHOLOGY:** Advanced telemetry cleaning, temperature/altitude physical compensation, daily trend aggregation, and structural segmentation of noisy raw IoT TPMS streams.
-2. **WEAK LABEL GENERATION:** Scalable deterministic labeling driven by six physics-informed boundary conditions mapped directly onto segment tails.
+1. **PREPROCESSING & SEGMENTATION:** Daily trend aggregation, intra-vehicle normalization, and structural segmentation of TPMS streams. *(Note: Proprietary GPS-based altitude and temperature compensation, as well as telematics cleaning steps applied to the raw telemetry, are omitted from this public release to preserve corporate hardware confidentiality.)*
+2. **WEAK LABEL GENERATION:** Scalable deterministic labeling driven by physics-informed boundary conditions mapped directly onto segment tails.
 3. **DETECTION & COVARIANCE TRACKING:** Distributed *Isolation Forest* combined with *Gradient Boosted Trees (GBT)* operating over 7-day sliding windows, temporally aggregated via our custom online tracking metric: **Soft-Excess-Mean**.
 
 ---
