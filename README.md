@@ -81,7 +81,7 @@ out_of_sample_path  = "./data/2_out_of_sample_demo_finished.parquet"
 
 ---
 
-## 📊 DATASET PRIVACY POLICY
+## DATASET PRIVACY POLICY
 
 The `data/` directory hosts a thoroughly randomized, anonymized example slice of TPMS telemetry sufficient to run the replication package end-to-end. To comply with corporate fleet operational privacy mandates, absolute geospatial tracking indicators and confidential routing vectors are stripped. The full production fleet dataset remains proprietary. Please refer to `data/README.md` for specific schema structures.
 
@@ -101,7 +101,7 @@ If you leverage this architectural system, codebase frameworks, or benchmark dat
 ---
 
 
-## ✉️ CONTACT & CORRESPONDENCE
+## CONTACT & CORRESPONDENCE
 
 * **Hai Yin** — `hai.yin@krone-fleet.com` 
 * **Jens Dorniak** — `jens.dorniak@krone.de`
