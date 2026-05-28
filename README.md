@@ -105,4 +105,4 @@ If you leverage this architectural system, codebase frameworks, or benchmark dat
 
 * **Hai Yin** — `hai.yin@krone-fleet.com` 
 * **Jens Dorniak** — `jens.dorniak@krone.de`
-* **Christian Beeks** — `christian.beeks@fernuni-hagen.de` 
+* **Christian Beecks** — `christian.beecks@fernuni-hagen.de` 
