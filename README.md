@@ -8,7 +8,7 @@
 
 Official replication package and benchmark artifacts accompanying the peer-reviewed paper:  
 **"Chronic Tire Pressure Loss Detection at Fleet Scale: A Deployed Weak-Supervision Approach for IoT Trend Anomalies"** 
-*Hai Yin, Jens Dorniak, Christian Beeks.* — **CIKM '26 (Applied Research Track)**.
+*Hai Yin, Jens Dorniak, Christian Beecks.* — **CIKM '26 (Applied Research Track)**.
 
 ---
 
