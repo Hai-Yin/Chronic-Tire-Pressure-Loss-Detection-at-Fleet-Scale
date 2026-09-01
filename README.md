@@ -35,7 +35,6 @@ Deployed in production at **KRONE FLEET**, the system currently monitors **~15,9
 ├── CITATION.cff           # Machine-readable citation file
 └── LICENSE                # Open-source legal framework
 ```
-
 ---
 
 ##  ENVIRONMENT & PREREQUISITES
