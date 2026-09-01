@@ -2,7 +2,7 @@
 
 > *An automated system to detect chronic tire pressure data anomalies and slow leaks in large-scale vehicle fleets.*
 
-[![Conference](https://img.shields.io/badge/CIKM-2026-blue.svg)](https://www.cikmconference.org/)
+
 [![Spark](https://img.shields.io/badge/Engine-PySpark%20%7C%20Azure%20Synapse%20%7C%20MS%20Fabric-orange.svg)](https://learn.microsoft.com/en-us/fabric/data-engineering/spark-overview)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
