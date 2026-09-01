@@ -89,7 +89,7 @@ The `data/` directory hosts a thoroughly randomized, anonymized example slice of
 
 ##  CITATION
 
-If you leverage this architectural system, codebase frameworks, or benchmark datasets in an academic or industrial context, please cite our CIKM reference paper as configured in the sidebar or via the `CITATION.cff` asset.
+If you leverage this architectural system, codebase frameworks, or benchmark datasets in an academic or industrial context, please cite our paper/repository as configured in the sidebar or via the `CITATION.cff` asset.
 
 ---
 
